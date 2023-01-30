@@ -1,0 +1,29 @@
+.root{
+	-fx-backgroung-color: white;
+	-fx-font-family: "Courier New";
+	-fx-font-size: 11pt;
+	
+}
+#monthLabel{
+	-fx-font-size: 13pt;
+	-fx-font-weight: bold;
+}
+.weekday{
+	-fx-font-weight: bold;
+}
+.day{
+	-fx-font-style:italic;
+}
+.sunday{
+	-fx-text-fill: red;
+}
+
+.today{
+	-fx-background-radius: 10px;
+	-fx-background-color: linear-gradient(to bottom right, white , orange);
+	-fx-border-radius: 10px;
+	-fx-border-style: dashed;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
